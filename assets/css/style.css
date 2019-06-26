@@ -1,11 +1,23 @@
-/*
-Body
-*/
-
 body
 {
-    background-image: src="assets/images/papyrus.png";
-    background-repeat: repeat;
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/papyrus.png")
+}
+
+/*
+Container
+*/
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    width: 960px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 25px;
+    padding-right: 25px;    
+    border: 1px solid #dddddd;
+    background-color: white;
 }
 
 /*
@@ -18,8 +30,6 @@ Menu bar
     justify-content: space-between;
     align-items: center;
     width: 960px;
-    padding-left: 50px;
-    padding-right: 50px;
     margin-bottom: 30px;
     font-weight: bold;
     background-color: white;
@@ -67,22 +77,6 @@ footer
     border-top: 5px solid #4aaaa5;
 }
 
-/*
-Container
-*/
-
-.container
-{
-    display: flex;
-    flex-direction: column;
-    width: 960px;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-left: 25px;
-    padding-right: 25px;    
-    border: 1px solid #dddddd;
-}
-
 .col1
 {
     display: flex;
@@ -121,12 +115,13 @@ Portfolio
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-: center;
+    justify-content: left;
 }
 
 .portfolioimg
 {
     position: relative;
+    margin: 20px;
 }
 
 .portfolio-text

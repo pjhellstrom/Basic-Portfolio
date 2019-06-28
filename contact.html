@@ -6,21 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Jonas Hellstrom</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=DM Serif Text|Abel|Playfair+Display:400,700|Roboto:100,300,400' rel="stylesheet">
 </head>
 <body>
     <div class="container">
+
+
         
         <div class="menuwrapper">
-            <a class="home-button">JH</a>
+            <h1 id="jonastitle">Jonas Hellstrom — full-stack developer in training</h1>
+
+            <a class="home-button"></a>
+
             <nav class="menubar">
                 <ul>
-                    <li>
+                    <li id="menuitem">
                         <a href="index.html">About</a>
                     </li>
-                    <li>
+                    <li id="menuitem">
                         <a href="portfolio.html">Portfolio</a>
                     </li>
-                    <li>
+                    <li id="menuitemselected">
                         <a href="contact.html">Contact</a>
                     </li>
                 </ul>
@@ -30,14 +36,26 @@
 
         <div class="mainwrapper">
 
+                <div class="introwrapper">
 
-            
-            </div>  
+                    <form class="contactform">
+                        Name:<br>
+                        <input type="text" name="name" placeholder="First name, last name"><br>
+                        Email:<br>
+                        <input type="text" name="email" placeholder="name@email.com"><br>
+                        Message:<br>
+                        <input type="text" name="message" placeholder="Hey Jonas!">
+                        <br><br>
+                    </form>
 
+                    <button type="button" id="submitbutton">Submit now</button>
+                    <br>
+                </div>
         </div>
 
+
         <div class="footerwrapper">
-            <footer>Copyright JH 2019</footer>
+            <footer>&copy; Jonas Hellstrom 2019</footer>
         </div>
 
 
